@@ -326,7 +326,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
   ;; 文件新行结尾
   (setq require-final-newline nil)
   ;; c/c++/java代码4空格缩进
-  (my-setup-indent 4)
+  ;;(my-setup-indent 4) 这个配置有错，不要放开
   )
 
 (defun dotspacemacs/user-config ()
